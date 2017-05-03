@@ -34,6 +34,20 @@ Feature: Bank Account
     Given I have an account with 100 dollars
     When I deposit 100 dollars
     Then my new balance should be 200 dollars
+
+
+  Scenario: Make a deposit to an account
     Given I have an account with 100 dollars
     When I deposit 100 dollars
     Then my new balance should be 200 dollars
+
+  Scenario: Make a deposit to an account
+    Given I have an account with 100 dollars
+    When I deposit 100 dollars
+    Then my new balance should be 200 dollars
+    Given I have an account with 100 dollars
+    When I deposit 100 dollars
+    Then my new balance should be 200 dollars
+
+
+
